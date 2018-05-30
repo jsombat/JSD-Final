@@ -1,0 +1,114 @@
+.body {
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: #000000;
+    background: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  h1,
+  p {
+    margin: 0 0 1em 0;
+  }
+  
+  .wrapper {
+    display: grid;
+    max-width: 1200px;
+    margin: 50px auto;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-rows: minmax(250px, auto);
+    grid-gap: 20px;
+  }
+  
+  .wrapper > * {
+    border-radius: 2px;
+    padding: 20px;
+    margin-bottom: 20px;  
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .wrapper {
+      grid-template-columns: 100%;
+      grid-gap: 20px;
+    }
+  }
+  
+  .intro {
+    background-color: white;
+    border-radius: 2px;
+  }
+  
+  .card {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 1px 3px 10px #333;
+    transition-duration: 0.4s;
+    margin: auto;
+  
+  }
+  
+  .card:hover {
+   color: white;
+   background-color: #0cbaba;
+   background-image: linear-gradient(315deg, #000 72%, #0cbaba 0%);
+   box-shadow: none;
+  }
+  
+  .image {
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    object-fit: contain;
+    width: 100%;
+    }
+  
+  .siteTitle {
+    color: black;
+    font-size: 2em;
+    font-weight: 900;
+  
+  }
+  
+  .siteDek {
+    color: black;
+    font-size: 1.3em;
+    font-weight: 400;
+    padding-top: 10px;
+  }
+  .siteDek:hover {
+    color: white;
+  }
+  
+  button {
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    color: black;
+    border: 2px solid #000;
+    font-size: .7em;
+    font-weight: 800;
+    transition-duration: 0.4s;
+  }
+  
+  buttonsubmit:hover {
+      background-color: #000;
+      color: white;
+  }
+
+
+.Modal {
+  width: 600px;
+  margin: auto;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
