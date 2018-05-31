@@ -7,8 +7,7 @@ const Event01 = {
   details: {
     name: "Sunday Dinner",
     imageUrl:
-      "https://78.media.tumblr.com/e547f8e521410e2ebc84deeb34dc87b0/tumblr_nm7v2pVWcy1s2ne6go1_1280.jpg"
-  }
+"https://c.pxhere.com/photos/3b/20/depth_of_field_dough_food_prep_fresh_pasta-1366240.jpg!d"}
 };
 
 const Event02 = {
@@ -16,8 +15,7 @@ const Event02 = {
     details: {
       name: "Friday Dinner",
       imageUrl:
-        "https://78.media.tumblr.com/e547f8e521410e2ebc84deeb34dc87b0/tumblr_nm7v2pVWcy1s2ne6go1_1280.jpg"
-    }
+"https://www.maxpixel.net/static/photo/2x/Pizza-Food-Italy-3000274.jpg"}
   };
 
   const Event03 = {
@@ -25,7 +23,7 @@ const Event02 = {
     details: {
       name: "4th of July BBQ",
       imageUrl:
-        "https://78.media.tumblr.com/e547f8e521410e2ebc84deeb34dc87b0/tumblr_nm7v2pVWcy1s2ne6go1_1280.jpg"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6kozjLlkNJWhAOkOrOxQWDxcgzPMEAo87_WacrK8hnm7IJfyQQg"
     }
   };
 
@@ -34,7 +32,7 @@ const Event02 = {
     details: {
       name: "Brunch",
       imageUrl:
-        "https://78.media.tumblr.com/e547f8e521410e2ebc84deeb34dc87b0/tumblr_nm7v2pVWcy1s2ne6go1_1280.jpg"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9NhMRaWOrUU_IpJlrb8hAUI1zCbM27yAcIzYOAFxDcIwAcVmW"
     }
   };
 
